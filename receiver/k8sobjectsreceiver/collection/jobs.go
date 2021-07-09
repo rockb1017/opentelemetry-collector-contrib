@@ -21,7 +21,7 @@ import (
 	batchv1 "k8s.io/api/batch/v1"
 
 	metadata "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/utils"
+	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sobjectsreceiver/utils"
 )
 
 var podsActiveMetric = &metricspb.MetricDescriptor{
