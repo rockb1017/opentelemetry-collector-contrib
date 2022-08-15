@@ -10,7 +10,7 @@ require (
 
 require go.opentelemetry.io/collector/model v0.46.1-0.20220307173244-f980c9ef25b1
 
-require go.uber.org/zap v1.21.0
+require go.uber.org/zap v1.22.0
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -42,5 +42,5 @@ require (
 	google.golang.org/grpc v1.44.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
